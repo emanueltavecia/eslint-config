@@ -1,10 +1,11 @@
 {
   "name": "@emanueltavecia/eslint-config",
-  "version": "2.2.2",
+  "version": "1.0.0",
   "private": false,
   "description": "ESLint configuration",
   "main": "index.js",
   "license": "MIT",
+  "author": "emanueltavecia",
   "repository": {
     "url": "emanueltavecia/eslint-config"
   },
