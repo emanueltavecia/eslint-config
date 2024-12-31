@@ -58,6 +58,18 @@ module.exports = {
         'newlines-between': 'always',
       },
     ],
+    'no-restricted-imports': [
+      'error',
+      {
+        paths: [
+          {
+            name: 'react',
+            importNames: ['default', '*'],
+            message: 'Use named imports instead of importing React as default or the entire package.',
+          },
+        ],
+      },
+    ],
   },
   settings: {
     react: {

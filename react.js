@@ -62,6 +62,19 @@ module.exports = {
         'newlines-between': 'always',
       },
     ],
+    'react/jsx-no-useless-fragment': 'error',
+    'no-restricted-imports': [
+      'error',
+      {
+        paths: [
+          {
+            name: 'react',
+            importNames: ['default', '*'],
+            message: 'Use named imports instead of importing React as default or the entire package.',
+          },
+        ],
+      },
+    ],
   },
   settings: {
     react: {
